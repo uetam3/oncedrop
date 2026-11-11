@@ -1,0 +1,33 @@
+# build output
+/oncedrop
+/oncedrop.exe
+/dist/
+/.cache/
+/internal/cfbin/bin/cloudflared*
+/web/node_modules/
+/web/dist/*
+!/web/dist/.keep
+
+# Claude Code / AI tooling and private notes
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.mcp.json
+graphify-out/
+/docs/superpowers/
+/PROGRESS.md
+
+# secrets and local config
+.env
+.env.*
+*.pem
+*.key
+admin-key
+
+# editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
